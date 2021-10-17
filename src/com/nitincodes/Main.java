@@ -1,7 +1,5 @@
 package com.nitincodes;
-
 public class Main {
-
     public static void main(String[] args) {
 	// write your code here
         Details obj1 = new Details();
@@ -18,8 +16,7 @@ public class Main {
         obj2.walk(87);
     }
 }
-
- class Details{
+class Details{
     String name;
     int age;
     int height;
